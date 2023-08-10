@@ -1,0 +1,54 @@
+### Ruta API
+@api = http://localhost:3001/asesores
+
+### Consultar Todos los registros
+GET {{api}}
+
+### Consultar la cantidad total de los registros
+GET {{api}}/count
+
+### Consultar Asesor por Id
+GET {{api}}/5
+
+### Crear Nuevo Asesor con Parametros Minimos (Fecha Opcional))
+POST {{api}}
+Content-Type: application/json
+
+{
+  "id_asesor": "1234567890",
+  "nombre_asesor": "Jhon Graham",
+  "equipo_entidad": "Operation",
+  "compania": "Connect",
+  "observaciones": "Multi-layered client-server neural-net",
+  "fecha_novedad" : "2023-08-07",
+  "usuario": "jgraham"
+}
+
+### Crear Nuevo Asesor con Parametros Obligatorios
+POST {{api}}
+Content-Type: application/json
+
+{
+  "id_asesor": "1237894560",
+  "nombre_asesor": "Alison Crowley",
+  "equipo_entidad": "Customer",
+  "compania": "Marketer",
+  "observaciones": "Multi-layered client-server neural-net",
+  "usuario": "acrowley"
+}
+
+### Eliminar Asesor por Id
+DELETE {{api}}/10
+
+### Actualizar Asesor por Id
+PUT {{api}}/1
+Content-Type: application/json
+
+{
+    "id_asesor": "1237894560",
+    "nombre_asesor": "Alison Crowley",
+    "equipo_entidad": "Customer",
+    "compania": "Marketer",
+    "observaciones": "Observación actualizada correctamente!",
+    "usuario": "acrowley"
+  }

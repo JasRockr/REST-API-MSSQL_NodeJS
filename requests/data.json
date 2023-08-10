@@ -1,0 +1,42 @@
+[
+  {
+    "id_asesor": "1234567890",
+    "nombre_asesor": "Jhon Graham",
+    "equipo_entidad": "Operation",
+    "compania": "Connect",
+    "observaciones": "Multi-layered client-server neural-net",
+    "usuario": "jgraham"
+  },
+  {
+    "id_asesor": "1237894560",
+    "nombre_asesor": "Alison Crowley",
+    "equipo_entidad": "Customer",
+    "compania": "Marketer",
+    "observaciones": "Multi-layered client-server neural-net",
+    "usuario": "acrowley"
+  },
+  {
+    "id_asesor": "1237890456",
+    "nombre_asesor": "Nasly White",
+    "equipo_entidad": "Customer",
+    "compania": "Chromatic",
+    "observaciones": "Multi-layered client-server neural-net",
+    "usuario": "nwhite"
+  },
+  {
+    "id_asesor": "1234560987",
+    "nombre_asesor": "Angelique Deevo",
+    "equipo_entidad": "Marketing",
+    "compania": "By Concept",
+    "observaciones": "Multi-layered client-server neural-net",
+    "usuario": "adeevo"
+  },
+  {
+    "id_asesor": "1236547890",
+    "nombre_asesor": "Frank Forteen",
+    "equipo_entidad": "Customer",
+    "compania": "Entertain",
+    "observaciones": "Multi-layered client-server neural-net",
+    "usuario": "fforteen"
+  }
+]
